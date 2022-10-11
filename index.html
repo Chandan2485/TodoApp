@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fca79017c5.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="heading">
+        <div class="menu">
+            <button class="Sort_all" id="all">All</button>
+            <button class="Sort_red" id="red"></button>
+            <button class="Sort_yellow" id="yellow"></button>
+            <button class="Sort_blue" id="blue"></button>
+            <button class="Sort_black" id="black"></button>
+            <button class="Sort_complete" id="completed"><i class="fa-solid fa-check" id="completed"></i></button>
+        </div>
+        <div class="search">
+            <input type="search" name="" id="search">
+            <select name="" id="option">
+                <option value="All" class="s_all">All</option>
+                <option value="complete" class="s_complete">complete</option>
+            </select>
+            <button class="search_btn">search</button>
+        </div>
+        <div class="create_task">
+            <button class="creat_task_btn">Create Task</button>
+        </div>
+    </header>
+
+    <section class="popup popup_hidden">
+        <div class="task_input">
+            <textarea  class="task_input_box" name="" placeholder="Enter Your's Notes"></textarea>
+            <button class="done">Done</button>
+        </div>
+        <div class="p_color">
+            <button class="close">X</button>
+            <button class="assi_red btnca" id="red"></button>
+            <button class="assi_yellow btnca" id="yellow"></button>
+            <button class="assi_blue btnca" id="blue"></button>
+            <button class="assi_black btnca" id="black"></button>
+        </div>
+    </section>
+    <main class="task_list">
+
+     <!-- <div class="tasks">
+        <div>
+            <div class="color"></div>
+            <div class="task_field">${task_text_arr[j]}</div>
+        </div>
+        <div class="footer">
+                <div class="modifiy lock_item">
+                   <i class="fa-solid fa-check" id="complete" ></i>
+                   <i class="fa-solid fa-trash-can" id="remove"></i>
+                   <i class="fa-solid fa-pen-to-square" id="edit"></i>
+                   <i class="fa-solid fa-square color1" id="color"></i>
+                </div>
+                <i class="fa-solid fa-lock" id="lock"></i>
+            
+        </div>
+</div> -->
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+ <!-- <div class="tasks">
+        <div>
+            <div class="color"></div>
+            <div class="task_field">${task_text_arr[j]}</div>
+        </div>
+        <div class="footer">
+                <div class="modifiy lock_item">
+                   <i class="fa-solid fa-check" id="complete" ></i>
+                   <i class="fa-solid fa-trash-can" id="remove"></i>
+                   <i class="fa-solid fa-pen-to-square" id="edit"></i>
+                   <i class="fa-solid fa-square color1" id="color"></i>
+                </div>
+                <i class="fa-solid fa-lock" id="lock"></i>
+            
+        </div>
+</div> -->
